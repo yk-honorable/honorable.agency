@@ -1,0 +1,75 @@
+:root {
+    --primary-color: #f2691a;
+    --text-color: #333;
+    --white-color: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.features-metrics {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    padding: 60px 30px;
+    position: relative;
+    text-align: center;
+}
+
+.features-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    max-width: 1200px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.features-block {
+    flex: 1;
+    transition: all 0.3s ease;
+}
+
+.features-block:hover {
+    transform: scale(1.05);
+}
+
+.features-title {
+    margin-bottom: 8px;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+}
+
+.features-title-small {
+    font-size: 20px;
+    vertical-align: super;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .features-wrapper {
+        flex-direction: column;
+    }
+
+    .features-title {
+        font-size: 36px;
+    }
+}
+
+/* Remove redundant resets */
+article, aside, details, figcaption, figure, footer, 
+header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+
+body {
+    color: var(--text-color);
+    background-color: var(--white-color);
+    min-height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}

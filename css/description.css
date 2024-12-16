@@ -1,0 +1,119 @@
+.description {
+    padding: 80px 30px;
+    position: relative;
+}
+
+.heading {
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 45px;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+}
+* {
+    box-sizing: border-box;
+}
+user agent stylesheet
+section {
+    display: block;
+    unicode-bidi: isolate;
+}
+.body {
+    background-color: #fff;
+    font-family: Poppins, Arial, sans-serif;
+}
+body {
+    color: #333;
+    background-color: #fff;
+    min-height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-family: sans-serif;
+}
+
+.btn1 {
+	box-sizing: border-box;
+	color: #fff;
+	text-align: center;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	background-color: #f2691a;
+	border-radius: 10px;
+	min-width: 196px;
+	padding: 12px 20px;
+	font-size: 12px;
+	font-weight: 800;
+	line-height: 20px;
+	transition: all .4s;
+	display: block;
+	box-shadow: 0 2px 5px #0003;
+  }
+  
+  .btn1:hover {
+	color: #f2691a;
+	background-color: #fbd2bd;
+  }
+
+  .btn2 {
+	color: #f2691a;
+	text-align: center;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	background-color: #fbd2bd;
+	border-radius: 10px;
+	padding: 12px 25px;
+	font-size: 12px;
+	font-weight: 800;
+	line-height: 20px;
+	transition: all .4s;
+	box-shadow: 0 2px 5px #0003;
+    min-height: 20px;
+  }
+  
+  .btn2:hover {
+	color: #fbd2bd;
+	background-color: #f2691a;
+  }
+
+.buttons {
+    list-style: none;
+    display: flex;
+    align-items: center; /* Vertically center buttons */
+    gap: 15px; /* Space between buttons */
+    padding: 0;
+}
+
+.buttons li {
+    display: flex; /* Ensure each li contains its button properly */
+}
+
+.buttons a {
+    display: inline-block; /* Make buttons inline but blocklike */
+    margin-bottom: 20px;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+  .text-span {
+    color: #f2691a;
+
+
+  }
+
+  .description .container {
+    max-width: 1200px; /* Adjust as needed */
+    width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
